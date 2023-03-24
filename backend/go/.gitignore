@@ -1,15 +1,20 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# ===== Mac
 
-# Test binary, built with `go test -c`
-*.test
+# OS
+.DS_Store
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# IDE
+.vscode
+__debug_bin
+.idea
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+
+
+# ===== Default
+
+# Local data
+.env
+
+# Build binary
+main
+
